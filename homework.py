@@ -21,3 +21,31 @@ def sum_list(lst):
         acc = acc + number
         
     return acc
+
+
+#%%
+
+def print_decreasing_range(number):
+    
+    for i in range(number, -1, -1):
+
+        print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
