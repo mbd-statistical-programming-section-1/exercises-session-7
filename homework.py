@@ -31,6 +31,30 @@ def print_decreasing_range(number):
 
         print(i)
 
+#%%
+        
+def maximum(lst):
+    
+    current_max = -1
+    
+    for number in lst:
+        
+        if number > current_max:
+            current_max = number
+        
+    return current_max
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
